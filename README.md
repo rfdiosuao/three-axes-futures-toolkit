@@ -81,6 +81,7 @@ python3 monitor_gold.py --brief
 ```
 .
 ├── README.md                     # 本文件
+├── LICENSE                       # MIT 开源协议
 ├── requirements.txt              # Python 依赖（panda / lark-cli 为外部 CLI）
 ├── .gitignore                    # 已默认忽略凭证、登录态与每日实时产物
 ├── push.config.example.json      # 飞书推送配置模板（复制为 config.local.json 后填自己的 ID）
@@ -124,3 +125,9 @@ python3 monitor_gold.py --brief
 ## 免责声明
 
 本项目基于公开数据进行客观整理与风险计算，仅供学习与研究使用，不构成投资建议或任何收益承诺。期货市场风险巨大，投资者应结合自身风险承受能力独立决策，并对自己的交易行为负责。
+
+---
+
+## 开源协议
+
+本项目基于 [MIT License](LICENSE) 开源，欢迎学习、参考与二次开发；请保留版权与免责声明，据此进行的任何交易由使用者自行承担风险。

@@ -1,8 +1,22 @@
 {
+  "_comment": "复制本文件为 config.local.json 并填入你自己的 ID；config.local.json 已被 .gitignore 忽略，切勿提交。",
   "chat_id": "oc_xxxxxxxxxxxxxxxxxxxxxxxx",
   "bitable": {
-    "app_token": "bascnXXXXXXXXXXXXXXXXXXXXXX",
-    "table_id": "tblXXXXXXXXXXXXXX"
+    "base_token": "bascnXXXXXXXXXXXXXXXXXXXXXX",
+    "table_id": "tblXXXXXXXXXXXXXX",
+    "url": "https://<your-tenant>.feishu.cn/base/<BASE_TOKEN>"
   },
-  "note": "复制本文件为 push.config.local.json 后填入真实值；local 文件已在 .gitignore，切勿提交真实 ID/凭证。"
+  "schedule": {
+    "daily_report_cron": "25 17 * * 1-5",
+    "gold_scan_cron": "*/15 9-14,21-23 * * 1-5",
+    "gold_brief_cron": "7 15 * * 1-5",
+    "timezone": "Asia/Shanghai"
+  },
+  "risk": {
+    "equity": 5000000,
+    "risk_pct": 0.01,
+    "stop_atr_k": 1.5,
+    "notional_cap_pct": 0.10,
+    "watch_contract": "AU2612"
+  }
 }

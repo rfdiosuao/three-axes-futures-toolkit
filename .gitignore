@@ -1,23 +1,22 @@
-# 凭证与本地配置（绝不提交）
+# —— 凭证与登录态（严禁提交）——
 .panda/
+credentials.json
 *.credentials.json
-push.config.local.json
-config.local.json
+*.token
+config.local.*
+*.local.json
 
-# Python
+# —— Python ——
 __pycache__/
 *.pyc
 .venv/
 venv/
 
-# 运行产物（每日实时生成；仅历史示例保留在 examples/）
-reports/
-snapshots/
-three_axes_latest.md
-three_axes_brief.md
-*.log
+# —— 每日实时运行产物（examples/ 下的历史示例仍保留）——
+/reports/
+/snapshots/
+/three_axes_latest.md
+/three_axes_brief.md
 
-# 系统/编辑器
+# —— 系统 ——
 .DS_Store
-.idea/
-.vscode/

@@ -61,9 +61,8 @@ python3 monitor_gold.py --brief
  月/周/日 MA10 共振筛选           总览·共振环比·四象限·涨跌榜          账户/持仓/行情 + ATR
  ATR 止损 + 以损定量手数          账户风控 → 飞书日报 XML             LEVEL 分级预警
         │                                 │                                 │
-        ▼                                 ▼                                 ▼
- three_axes_latest.md          reports/daily_report_<日>.xml      NONE/INFO 静默
- three_axes_brief.md           snapshots/regime_<日>.csv          WARN/DANGER/ERROR 才推群
+        ▼                                 ▼                                 ▼ three_axes_latest.md          reports/daily_report_<日>.xml      NONE/INFO 静默
+ three_axes_brief.md             snapshots/regime_<日>.csv          WARN/DANGER/ERROR 才推群
                                   │
                                   ├─ lark-cli docs  +create   → 当日飞书云文档
                                   ├─ lark-cli base  +record…  → 多维表格按日期追加一行

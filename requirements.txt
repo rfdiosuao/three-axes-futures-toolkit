@@ -1,0 +1,10 @@
+# 三板斧期货风控与日报系统依赖（Python 3.10+）
+# 全市场筛选 / 每日日报的市场数据（免费，无需 token）
+akshare>=1.14
+pandas>=2.0
+numpy>=1.24
+
+# monitor_gold.py / daily_report.py 的账户与持仓部分需要：
+#   - PandaAI 量化平台 CLI（panda），按官方安装指南完成登录授权
+#   - 飞书推送需要 lark-cli（已授权用户身份）
+# 这两个是外部命令行工具，不通过 pip 安装；凭证由它们各自安全管理。

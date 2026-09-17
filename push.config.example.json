@@ -1,0 +1,8 @@
+{
+  "chat_id": "oc_xxxxxxxxxxxxxxxxxxxxxxxx",
+  "bitable": {
+    "app_token": "bascnXXXXXXXXXXXXXXXXXXXXXX",
+    "table_id": "tblXXXXXXXXXXXXXX"
+  },
+  "note": "复制本文件为 push.config.local.json 后填入真实值；local 文件已在 .gitignore，切勿提交真实 ID/凭证。"
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-16",
+  "weekday": "周三",
+  "temperature": "均衡分化",
+  "scanned": 51,
+  "up": 35,
+  "down": 14,
+  "flat": 2,
+  "long_n": 13,
+  "short_n": 14,
+  "new_long": [
+    "豆粕",
+    "菜粕"
+  ],
+  "new_short": [],
+  "top": [
+    "菜粕",
+    "沥青",
+    "乙二醇"
+  ],
+  "bottom": [
+    "碳酸锂",
+    "苯乙烯",
+    "生猪"
+  ],
+  "xml_path": "reports/daily_report_2026-09-16.xml"
+}
